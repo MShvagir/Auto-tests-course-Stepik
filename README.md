@@ -1,2 +1,2 @@
-# Auto-tests-course-Stepik-
+# Auto-tests-course-Stepik
 home task
