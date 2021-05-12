@@ -13,11 +13,10 @@ def fill_form(link, driver, person):
 
 
 class TestWebElements(unittest.TestCase):
-    driver = webdriver.Chrome()
 
     @classmethod
     def setUpClass(cls):
-        # cls.driver = webdriver.Chrome()
+        cls.driver = webdriver.Chrome()
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(5)
         cls.person = {
